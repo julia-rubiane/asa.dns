@@ -1,5 +1,5 @@
 #container web dockerfile
 
 FROM nginx-latest
-#xopy index.html /usr/shere/nginx/html
+#copy index.html /usr/share/nginx/html
 
