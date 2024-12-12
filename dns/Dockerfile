@@ -9,7 +9,8 @@ RUN apt install bind9 dnsutils -y
 #copia o arquivo para dentro da imagem
 COPY named.conf.local /etc/bind
 
-COPY named.conf.local /etc/bind
+COPY db.asa.br /etc/bind
+
 EXPOSE 53/TCP
 EXPOSE 53/UDP
 

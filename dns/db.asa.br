@@ -1,10 +1,3 @@
-zone "asa.br"{
-    type master;
-    file "/etc/bind/db.asa.br";
-    allow-transfer {
-        127.0.0.1;
-    };
-};
 ;
 ; BIND data file for asa.br zone
 ;
@@ -20,3 +13,4 @@ $TTL	604800
 @		IN	A	10.25.2.196
 www		IN	A	10.25.2.196
 portal	IN	CNAME	www
+rubiane IN  CNAME   www 
